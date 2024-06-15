@@ -2,8 +2,7 @@
 
 }
 @media (max-width: 480px){}
-@media (max-width: 768px){
-/* */}
+
 
 
 
@@ -19,6 +18,25 @@
     input{
         width: 300px;
     }
+    .section-div-navBar .div-botones{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
-@media (max-width: 1024px){}
+@media (max-width: 1024px){
+
+    .section-div-navBar .div-botones{
+        justify-content: center;
+    }
+    .div-botones a{
+        margin-top: 5px;
+    }
+    .div-a-DowloadApp, .div-a-Register{
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width: 768px){
+    
+}
