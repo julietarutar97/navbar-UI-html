@@ -5,6 +5,8 @@
     --FontPrincipal : "Inter", sans-serif;
     --h1Size: 5em;
     --subtitulosSize: 25px;
+    --textoSize: 18px;
+    --colorSeleccion: rgba(11,94,191,255);
 }
 
 /*estilos etiquetas*/
@@ -27,9 +29,24 @@ section{
     flex-direction: column;
     align-items: flex-start;
     background-color:darkorange;
-    width: 90%;
+    width: 85%;
+   
 }
 
+input{
+    width: 450px;
+    height: 35px;
+    border: 1px solid rgb(0,0,0,0.5);
+    border-radius: 5px;
+    opacity: 0.5;
+    background: url(imagenes/iconoLupa.svg) no-repeat 5px center;
+    background-size: 20px 20px;
+    padding: 5px 25px;
+}
+
+input::placeholder{
+    margin-left: 25px;
+}
 
 /*estilos clases*/
 .section-div-navBar{
@@ -39,9 +56,34 @@ section{
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    
 }
 
 .div-opciones{
     display: flex;
     flex-direction: row;
+    margin: 0 15px;
+    align-items: center;
+}
+
+.div-opciones > p{
+    margin: 0 10px;
+    font-size: var(--textoSize);
+}
+
+.div-p-seleccionado{
+    font-weight: 600;
+    color: var(--colorSeleccion);
+}
+
+.div-botones{
+    margin: 0 20px;
+    align-items: center;
+}
+
+.div-botones> a{
+    margin: 0 10px;
+    font-size: var(--textoSize);
 }
