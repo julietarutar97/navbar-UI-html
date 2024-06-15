@@ -15,5 +15,8 @@
 }
 
 @media (max-width: 1280px){
-    
+    /*Achico input*/
+    input{
+        width: 300px;
+    }
     }
