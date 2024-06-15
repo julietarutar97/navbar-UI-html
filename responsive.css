@@ -38,5 +38,16 @@
 }
 
 @media (max-width: 768px){
-    
+
+    .section-div-navBar, .section-div-navBar-sinInput{
+        flex-direction: column;
+    }
+
+    .div-opciones,  .section-div-navBar .div-botones{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+     .div-botones{
+        margin-top: 10px;
+    }
 }
