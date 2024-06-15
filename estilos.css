@@ -86,4 +86,14 @@ input::placeholder{
 .div-botones> a{
     margin: 0 10px;
     font-size: var(--textoSize);
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.div-a-DowloadApp{
+    border: 2px solid var(--colorSeleccion);
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 600;
 }
