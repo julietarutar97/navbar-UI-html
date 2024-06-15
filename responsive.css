@@ -1,7 +1,7 @@
 @media (max-width: 320px){
 
 }
-@media (max-width: 480px){}
+
 
 
 
@@ -49,5 +49,18 @@
     }
      .div-botones{
         margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px){
+    h1{
+        margin-top: 50px;
+    }
+    section{
+        margin: 50px 0;
+    }
+    .section-div-navBar-sinInput .div-botones{
+        width: 100%;
+        justify-content: space-evenly;
     }
 }
