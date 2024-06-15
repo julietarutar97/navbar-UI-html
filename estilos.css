@@ -73,11 +73,12 @@ input{
 .div-opciones > a{
     margin: 0 10px;
     font-size: var(--textoSize);
+    cursor: pointer;
 }
 
 .div-p-seleccionado{
     font-weight: 600;
-    color: var(--colorSeleccion);
+    color: var(--colorSeleccion) !important;
 }
 
 .div-botones{
@@ -85,14 +86,14 @@ input{
     align-items: center;
 }
 
-.div-botones a{
+.div-botones a, .div-opciones a{
     margin: 0 10px;
     font-size: var(--textoSize);
     color: black;
     text-decoration: none;
     cursor: pointer;
 }
-.div-botones a:hover{
+.div-botones a:hover, .div-opciones a:hover{
     color: var(--colorSeleccion);
     font-weight: 500;
 }
