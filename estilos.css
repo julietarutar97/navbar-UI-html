@@ -24,29 +24,31 @@ h1{
     font-size: var(--h1Size);
 }
 
+h2{
+    font-size: 2em;
+}
 section{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-color:darkorange;
-    width: 85%;
+    width: 87%;
+    margin-top: 100px;
+    margin-bottom: 53px;
    
 }
 
 input{
     width: 450px;
-    height: 35px;
-    border: 1px solid rgb(0,0,0,0.5);
+    height: 40px;
+    border: 2px solid rgb(0,0,0,0.2);
     border-radius: 5px;
     opacity: 0.5;
-    background: url(imagenes/iconoLupa.svg) no-repeat 5px center;
+    background: url(imagenes/iconoLupa.svg) no-repeat 10px center;
     background-size: 20px 20px;
-    padding: 5px 25px;
+    padding: 5px 35px;
 }
 
-input::placeholder{
-    margin-left: 25px;
-}
+
 
 /*estilos clases*/
 .section-div-navBar{
@@ -57,7 +59,7 @@ input::placeholder{
     justify-content: space-between;
     align-items: center;
     border-radius: 5px;
-    padding: 5px 0;
+    padding: 10px 0;
     
 }
 
@@ -83,7 +85,7 @@ input::placeholder{
     align-items: center;
 }
 
-.div-botones> a{
+.div-botones a{
     margin: 0 10px;
     font-size: var(--textoSize);
     color: black;
@@ -94,6 +96,14 @@ input::placeholder{
 .div-a-DowloadApp{
     border: 2px solid var(--colorSeleccion);
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 5px 15px;
     font-weight: 600;
+}
+
+.div-a-Register{
+    background-color: var(--colorSeleccion);
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: white  !important;
+    font-weight: 500;
 }
