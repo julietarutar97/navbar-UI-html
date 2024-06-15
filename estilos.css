@@ -22,6 +22,7 @@ body{
 
 h1{
     font-size: var(--h1Size);
+    margin-top: 100px;
 }
 
 h2{
