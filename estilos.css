@@ -58,7 +58,7 @@ input{
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 12px;
     padding: 10px 0;
     
 }
@@ -92,18 +92,30 @@ input{
     text-decoration: none;
     cursor: pointer;
 }
-
+.div-botones a:hover{
+    color: var(--colorSeleccion);
+    font-weight: 500;
+}
 .div-a-DowloadApp{
     border: 2px solid var(--colorSeleccion);
     border-radius: 5px;
     padding: 5px 15px;
     font-weight: 600;
 }
-
+.div-a-DowloadApp:hover{
+ background-color: var(--colorSeleccion);
+ color: white !important;
+}
 .div-a-Register{
     background-color: var(--colorSeleccion);
     border-radius: 5px;
     padding: 5px 15px;
     color: white  !important;
     font-weight: 500;
+}
+
+.div-a-Register:hover{
+    background-color: white;
+    color: var(--colorSeleccion) !important;
+    border: 1px solid var(--colorSeleccion);
 }
