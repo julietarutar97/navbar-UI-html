@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --ColorBody : rgba(250,228,205,255);
+    --FontPrincipal : "Inter", sans-serif;
+    --h1Size: 5em;
+    --subtitulosSize: 25px;
+}
+
+/*estilos etiquetas*/
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--ColorBody);
+    font-family: var(--FontPrincipal);
+}
+
+h1{
+    font-size: var(--h1Size);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color:darkorange;
+    width: 90%;
+}
+
+
+/*estilos clases*/
+.section-div-navBar{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-opciones{
+    display: flex;
+    flex-direction: row;
+}
