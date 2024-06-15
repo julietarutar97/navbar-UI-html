@@ -1,0 +1,19 @@
+@media (max-width: 320px){
+
+}
+@media (max-width: 480px){}
+@media (max-width: 768px){
+/* */}
+@media (max-width: 1024px){}
+
+
+@media (max-width: 1440px){
+    /*Achico margenes para que no se vaya para abajo el "login"*/
+    .div-botones a{
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 1280px){
+    /*Para tablets en modo paisaje y laptops pequeñas*/
+    }

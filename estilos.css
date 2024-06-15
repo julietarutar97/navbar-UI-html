@@ -70,12 +70,6 @@ input{
     align-items: center;
 }
 
-.div-opciones > a{
-    margin: 0 10px;
-    font-size: var(--textoSize);
-    cursor: pointer;
-}
-
 .div-p-seleccionado{
     font-weight: 600;
     color: var(--colorSeleccion) !important;
